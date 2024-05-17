@@ -1,0 +1,17 @@
+{
+  "id": "exampleclient-1.8.9",
+  "inheritsFrom": "1.8.9-OptiFine_HD_U_M5",
+  "time": "2069-08-11T11:13:12+01:00",
+  "releaseTime": "2069-08-11T11:13:12+01:00",
+  "type": "release",
+  "libraries": [
+    {
+      "name": "net:example:exampleclient-1.8.9"
+    },
+    {
+      "name": "optifine:launchwrapper-of:2.2"
+    }
+  ],
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type} --tweakClass net.example.exampleclient.mixins.ExampleTweaker"
+}
