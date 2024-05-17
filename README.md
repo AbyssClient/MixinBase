@@ -10,3 +10,10 @@ Now you can start Minecraft!
 
 ![mixinrunconfig](https://github.com/AbyssClient/MixinBase/assets/170053471/d8248117-0cfe-42b2-87b5-3b9c58022c31)
 
+# How to build
+Run the "build" command in the gradle tab, there should be a new file in Mixin-Base/build/lib, keep that folder open for now,
+now press Windows + R and type in %appdata%, this will open a folder called "Roaming", you'll see the .minecraft folder,
+open it, now navigate over to the "versions" folder and make a new folder inside of this folder called whatever you want,
+for me this will be "exampleclient-1.8.9", now copy and paste the 1.8.9.jar file from the 1.8.9 folder in the versions folder into
+your newly created folder (exampleclient-1.8.9), then do the same thing but with the exampleclient-1.8.9.json file I've left
+in this repository,
