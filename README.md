@@ -19,4 +19,9 @@ your newly created folder (exampleclient-1.8.9), then do the same thing but with
 in this repository, you can rename this file to the name of your folder (also rename the .jar you pasted), now open the .json
 file with whatever text editor you want to use and edit the id to be the name of your file, now edit the "name" under "libraries"
 to say "net:example:exampleclient-1.8.9", then change the --tweakClass property to the path of your Tweaker class in the project,
+now in the .minecraft/libraries folder make a new folder called example: "me", "dev" and then inside that folder change it to the second
+folder specified in the json file, so my folder path will be net/example/exampleclient and then paste your jar file generated from the build cmd
+into that folder, rename the jar file to the name of the second folder, add a dash and then add the name of the third folder, so for me the file name is
+example-exampleclient.jar.
 
+Open the launcher, start mc and it should be done!
